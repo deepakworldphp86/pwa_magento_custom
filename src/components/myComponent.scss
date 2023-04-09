@@ -1,0 +1,15 @@
+$button-color: #ff495b;
+$button-color-hover: #ff9c1a;
+
+.root {
+  padding: 15px;
+}
+
+.button {
+  color: $button-color;
+
+  &:hover {
+    color: $button-color-hover;
+  }
+}
+
